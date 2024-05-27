@@ -27,6 +27,8 @@ VIOLET = (167,38,255)
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("PIANO PLAYER")
+pygame_icon = pygame.image.load('./logo.png')
+pygame.display.set_icon(pygame_icon)
 
 #variables for drawing
 key_1 = pygame.Rect(20, 50, 50, 150)
